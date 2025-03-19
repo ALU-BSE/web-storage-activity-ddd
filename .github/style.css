@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+    background-color: #333;
+    color: white;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#login-container, #logout-container {
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+}
